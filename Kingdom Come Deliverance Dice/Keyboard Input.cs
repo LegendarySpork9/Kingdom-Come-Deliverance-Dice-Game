@@ -21,10 +21,10 @@ namespace Kingdom_Come_Deliverance_Dice
         {
             switch (Key)
             {
-                case ConsoleKey.UpArrow: Settings.SelectSetting(Settings_Model.SettingSelected - 1); break;
-                case ConsoleKey.DownArrow: Settings.SelectSetting(Settings_Model.SettingSelected + 1); break;
-                case ConsoleKey.LeftArrow: Settings.SettingValue(Settings_Model.SettingSelected, "Left"); break;
-                case ConsoleKey.RightArrow: Settings.SettingValue(Settings_Model.SettingSelected, "Right"); break;
+                //case ConsoleKey.UpArrow: Settings.SelectSetting(Settings_Model.SettingSelected - 1); break;
+                //case ConsoleKey.DownArrow: Settings.SelectSetting(Settings_Model.SettingSelected + 1); break;
+                //case ConsoleKey.LeftArrow: Settings.SettingValue(Settings_Model.SettingSelected, "Left"); break;
+                //case ConsoleKey.RightArrow: Settings.SettingValue(Settings_Model.SettingSelected, "Right"); break;
                 case ConsoleKey.Enter: Game.PlayGame(); break;
             }
         }
