@@ -1,5 +1,5 @@
 ﻿// Copyright © - unpublished - Toby Hunter
-namespace Kingdom_Come_Deliverance_Dice
+namespace Kingdom_Come_Deliverance_Dice.Functions
 {
     internal class KeyboardInput
     {
