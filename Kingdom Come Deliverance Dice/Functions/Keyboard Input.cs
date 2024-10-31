@@ -8,14 +8,30 @@ namespace Kingdom_Come_Deliverance_Dice.Functions
             
         }
 
-        public void SettingsInput(ConsoleKey Key)
+        // Retained from the original code
+        public static void SettingsInput(ConsoleKey Key)
         {
-            
+            switch (Key)
+            {
+                case ConsoleKey.Enter: Game.PlayGame(); break;
+            }
         }
 
-        public void GameInput(ConsoleKey Key)
+        // GameInput method with original functionality
+        public static void GameInput(ConsoleKey Key)
         {
-            
+            switch (Key)
+            {
+                case ConsoleKey.Escape: Environment.Exit(0); break;
+                case ConsoleKey.D1: Game.IsHeld(1); break;
+                case ConsoleKey.D2: Game.IsHeld(2); break;
+                case ConsoleKey.D3: Game.IsHeld(3); break;
+                case ConsoleKey.D4: Game.IsHeld(4); break;
+                case ConsoleKey.D5: Game.IsHeld(5); break;
+                case ConsoleKey.D6: Game.IsHeld(6); break;
+                case ConsoleKey.E: Game.HoldDiceCheck(); break;
+                case ConsoleKey.F: Game.ScoreAndRoll(); break;
+            }
         }
     }
 }
