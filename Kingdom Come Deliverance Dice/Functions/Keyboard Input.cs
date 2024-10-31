@@ -5,26 +5,17 @@ namespace Kingdom_Come_Deliverance_Dice
     {
         public void MenuInput(ConsoleKey Key)
         {
-            switch (Key)
-            {
-                
-            }
+            
         }
 
         public void SettingsInput(ConsoleKey Key)
         {
-            switch (Key)
-            {
-                
-            }
+            
         }
 
         public void GameInput(ConsoleKey Key)
         {
-            switch (Key)
-            {
-                
-            }
+            
         }
     }
 }
