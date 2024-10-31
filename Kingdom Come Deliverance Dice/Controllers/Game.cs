@@ -23,7 +23,7 @@ namespace Kingdom_Come_Deliverance_Dice
 
             while (true)
             {
-                Keyboard_Input.GameInput(Console.ReadKey().Key);
+                //Keyboard_Input.GameInput(Console.ReadKey().Key);
                 Console.Clear();
                 //Console.WriteLine(Game_Text.Text);
                 Console.WriteLine();

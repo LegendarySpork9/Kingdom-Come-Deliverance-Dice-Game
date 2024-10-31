@@ -18,7 +18,7 @@
             Console.WriteLine(@"||                             ||");
             Console.WriteLine(@"\\=============================//");
 
-            Keyboard_Input.Input(Console.ReadKey().Key);
+            //Keyboard_Input.Input(Console.ReadKey().Key);
 
             //bool PlayAgain = true;
             //

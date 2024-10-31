@@ -10,7 +10,7 @@
 
             while (true)
             {
-                Keyboard_Input.SettingsInput(Console.ReadKey().Key);
+                //Keyboard_Input.SettingsInput(Console.ReadKey().Key);
                 Console.Clear();
                 //Console.WriteLine(Game_Text.Text);
             }

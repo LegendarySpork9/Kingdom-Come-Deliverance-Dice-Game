@@ -1,22 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Kingdom_Come_Deliverance_Dice
+﻿// Copyright © - unpublished - Toby Hunter
+namespace Kingdom_Come_Deliverance_Dice.Functions
 {
-    internal class Keyboard_Input
+    internal class KeyboardInput
     {
-        // Captures the input and returns the action.
-        public static void Input(ConsoleKey Key)
+        public void MenuInput(ConsoleKey Key)
         {
-            switch (Key)
-            {
-                case ConsoleKey.Enter: Settings.ShowSettings(); break;
-            }
+            
         }
 
+        // Retained from the original code
         public static void SettingsInput(ConsoleKey Key)
         {
             switch (Key)
@@ -29,6 +21,7 @@ namespace Kingdom_Come_Deliverance_Dice
             }
         }
 
+        // GameInput method with original functionality
         public static void GameInput(ConsoleKey Key)
         {
             switch (Key)
