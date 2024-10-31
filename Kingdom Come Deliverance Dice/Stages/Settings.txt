@@ -1,0 +1,8 @@
+﻿//=============================\\
+||          Settings:          ||
+||                             ||
+||         Players: 0          ||   Up Arrow, Down Arrow - Navigate Settings
+||         Score: 1000         ||   <- -> - Alter Values
+||                             ||
+||   Press Enter to Continue   ||
+\\=============================//
